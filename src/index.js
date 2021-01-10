@@ -1,14 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import EssayForm from './EssayForm';
+import FlavorForm from './FlavorForm';
 import './index.css';
+import NameForm from './NameForm';
 import reportWebVitals from './reportWebVitals';
-import LoginControl from './LoginControl';
-import Mailbox from './Mailbox';
-
 
 ReactDOM.render(
   <React.StrictMode>
-    <LoginControl />
+    <NameForm />
+    <EssayForm />
+    <FlavorForm />
   </React.StrictMode>,
   document.getElementById('root')
 );
