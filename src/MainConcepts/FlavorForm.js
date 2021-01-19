@@ -14,7 +14,8 @@ class FlavorForm extends React.Component {
 
     handleSubmit(event) {
         alert('Your favorite flavor is:' + this.state.value);
-        //event.preventDefault();
+        // using preventDefault() because we don't want to reset the values
+        event.preventDefault();
     }
 
     render() {
